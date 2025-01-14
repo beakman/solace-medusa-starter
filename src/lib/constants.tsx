@@ -156,7 +156,7 @@ export const createNavigation = (
       })),
   },
   {
-    name: 'Collections',
+    name: 'Colecciones',
     handle: '/shop',
     category_children: !collections
       ? null
@@ -169,7 +169,7 @@ export const createNavigation = (
         })),
   },
   {
-    name: 'About Us',
+    name: 'Sobre nosotros',
     handle: '/about-us',
     category_children: null,
   },
@@ -181,7 +181,7 @@ export const createFooterNavigation = (
   return {
     navigation: [
       {
-        header: 'Categories',
+        header: 'Categorías',
         links: [
           ...productCategories
             .filter((category) => !category.parent_category)
@@ -193,27 +193,27 @@ export const createFooterNavigation = (
         ],
       },
       {
-        header: 'Orders',
+        header: 'Pedidos',
         links: [
           {
-            title: 'Orders and delivery',
+            title: 'Pedidos y entrega',
             href: '/terms-and-conditions',
           },
           {
-            title: 'Returns and refunds',
+            title: 'Devoluciones y reembolsos',
             href: '/terms-and-conditions',
           },
           {
-            title: 'Payment and pricing',
+            title: 'Pago y precios',
             href: '/terms-and-conditions',
           },
         ],
       },
       {
-        header: 'About',
+        header: 'Sobre nosotros',
         links: [
           {
-            title: 'About us',
+            title: 'Sobre nosotros',
             href: '/about-us',
           },
           {
@@ -227,34 +227,34 @@ export const createFooterNavigation = (
         ],
       },
       {
-        header: 'Need help?',
+        header: '¿Necesitas ayuda?',
         links: [
           {
             title: 'FAQs',
             href: '/faq',
           },
           {
-            title: 'Support center',
+            title: 'Centro de soporte',
             href: '#',
           },
           {
-            title: 'Contact us',
+            title: 'Contáctanos',
             href: '#',
           },
         ],
       },
     ],
     contact: {
-      header: "Let's stay in touch",
-      text: 'Keep up to date with the latest product launches and news. Find out more about our brands and get special promo codes.',
+      header: "¡Manténganse en contacto!",
+      text: 'Manténgase al día con las últimas lanzamientos de productos y noticias. Obténganos más información sobre nuestras marcas y obténganos códigos de promoción especiales.',
     },
     other: [
       {
-        title: 'Privacy Policy',
+        title: 'Política de privacidad',
         href: '/privacy-policy',
       },
       {
-        title: 'Terms & Conditions',
+        title: 'Términos y condiciones',
         href: '/terms-and-conditions',
       },
     ],
@@ -263,11 +263,11 @@ export const createFooterNavigation = (
 
 export const checkoutFooterNavigation = [
   {
-    title: 'Privacy Policy',
+    title: 'Política de privacidad',
     href: '/privacy-policy',
   },
   {
-    title: 'Terms & Conditions',
+    title: 'Términos y condiciones',
     href: '/terms-and-conditions',
   },
 ]

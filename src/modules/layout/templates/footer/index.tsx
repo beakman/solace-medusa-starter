@@ -19,7 +19,7 @@ import {
   ChevronDownIcon,
   FacebookIcon,
   LinkedinIcon,
-  SolaceLogo,
+  NatahomeLogo,
   XLogoIcon,
 } from '@modules/common/icons'
 
@@ -61,7 +61,7 @@ export default async function Footer({ countryCode }: { countryCode: string }) {
               href="#"
               className="w-max cursor-pointer text-static"
             >
-              <SolaceLogo />
+              <NatahomeLogo className="h-6 w-auto" />
             </LocalizedClientLink>
             <SocialMedia className="hidden large:flex" />
           </Box>

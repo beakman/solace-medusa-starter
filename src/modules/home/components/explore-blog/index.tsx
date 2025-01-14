@@ -24,10 +24,10 @@ export function ExploreBlog({ posts }: { posts: BlogPost[] }) {
             as="h2"
             className="text-2xl text-basic-primary small:text-3xl"
           >
-            Get inspired
+            Obtenga inspiración
           </Heading>
           <Button className="hidden w-max large:flex" variant="tonal" asChild>
-            <LocalizedClientLink href="/blog">Read more</LocalizedClientLink>
+            <LocalizedClientLink href="/blog">Ver más</LocalizedClientLink>
           </Button>
         </Box>
         <Box className="hidden items-center gap-2 large:grid large:grid-cols-3">

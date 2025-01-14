@@ -18,9 +18,9 @@ import { ProductCarousel } from '@modules/products/components/product-carousel'
 import SkeletonProductsCarousel from '@modules/skeletons/templates/skeleton-products-carousel'
 
 export const metadata: Metadata = {
-  title: 'Solace Medusa Starter Template',
+  title: 'Natahome',
   description:
-    'A performant frontend ecommerce starter template with Next.js 14 and Medusa 2.0.',
+    'Muebles naturales hechos a mano',
 }
 
 export default async function Home({
@@ -73,10 +73,10 @@ export default async function Home({
         <ProductCarousel
           products={products}
           regionId={region.id}
-          title="Our bestsellers"
+          title="Los más vendidos"
           viewAll={{
             link: '/shop',
-            text: 'View all',
+            text: 'Ver todos',
           }}
         />
       </Suspense>

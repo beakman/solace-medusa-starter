@@ -55,7 +55,7 @@ export default function NavContent(props: any) {
         })}
       >
         <LocalizedClientLink href="/">
-          <NatahomeLogo className="h-6 medium:h-7" />
+          <NatahomeLogo className="h-6 w-auto medium:h-7" />
         </LocalizedClientLink>
       </Box>
       {!isSearchOpen && (

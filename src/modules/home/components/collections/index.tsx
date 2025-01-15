@@ -81,10 +81,6 @@ const Collections = ({
   cmsCollections: CollectionsData
   medusaCollections: StoreCollection[]
 }) => {
-  console.log('medusaCollections');
-  console.log(medusaCollections);
-  console.log('cmsCollections');
-  console.log(cmsCollections);
 
   const validCollections = useMemo(() => {
     if (!cmsCollections.data.length || !medusaCollections.length) return null

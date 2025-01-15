@@ -20,6 +20,7 @@ const Hero = ({ data }: { data: HeroBanner }) => {
           className="h-full w-full object-cover"
           width={1000}
           height={600}
+          quality={70}
           priority
         />
       </Box>

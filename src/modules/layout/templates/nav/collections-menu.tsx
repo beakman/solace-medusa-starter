@@ -30,10 +30,14 @@ export default function CollectionsMenu({
     return collections.sort((a, b) => b.id - a.id)
   }, [cmsCollections, medusaCollections])
 
+  console.log('validCollections', validCollections);
+
   const newestCollections = useMemo(() => {
     if (!validCollections) return null
     return validCollections.slice(0, 3)
   }, [validCollections])
+
+  console.log('newestCollections', newestCollections);
 
   if (!newestCollections) return null
 

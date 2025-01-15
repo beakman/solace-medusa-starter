@@ -156,7 +156,7 @@ export const createNavigation = (
       })),
   },
   {
-    name: 'Colecciones',
+    name: 'Collections',
     handle: '/shop',
     category_children: !collections
       ? null

@@ -61,7 +61,7 @@ export default async function Footer({ countryCode }: { countryCode: string }) {
               href="#"
               className="w-max cursor-pointer text-static"
             >
-              <NatahomeLogo className="h-5 w-auto" />
+              <NatahomeLogo className="h-12 w-auto" />
             </LocalizedClientLink>
             <SocialMedia className="hidden large:flex" />
           </Box>

@@ -10,8 +10,8 @@ interface StorePageLayoutProps {
 }
 
 export const metadata: Metadata = {
-  title: 'Shop - All products',
-  description: 'Explore all of our products.',
+  title: 'Tienda - Todos los productos',
+  description: 'Explora nuestros productos',
 }
 
 export default function StorePageLayout({ children }: StorePageLayoutProps) {
@@ -24,7 +24,7 @@ export default function StorePageLayout({ children }: StorePageLayoutProps) {
             as="h1"
             className="text-4xl text-basic-primary small:text-5xl"
           >
-            All products
+            Todos los productos
           </Heading>
         </Box>
       </Container>

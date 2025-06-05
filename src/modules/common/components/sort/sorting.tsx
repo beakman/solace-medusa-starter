@@ -43,7 +43,7 @@ const Sorting = ({ options, sortBy, setQueryParams }: SortingProps) => {
   return (
     <Box className="flex items-center gap-4">
       <Text size="md" className="hidden text-secondary small:block">
-        Sort by:
+        Ordenar por:
       </Text>
       <Select
         value={sortBy}

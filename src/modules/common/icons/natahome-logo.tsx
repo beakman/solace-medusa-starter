@@ -60,8 +60,8 @@ export const NatahomeLogo = (props: IconProps) => {
       <defs>
         <linearGradient id="paint0_linear_501_219" x1="214.042" y1="120.737" x2="214.042" y2="-60.1349"
                         gradientUnits="userSpaceOnUse">
-          <stop stop-color="#0F4F7F" />
-          <stop offset="1" stop-color="#9FCAD5" />
+          <stop stopColor="#0F4F7F" />
+          <stop offset="1" stopColor="#9FCAD5" />
         </linearGradient>
       </defs>
     </svg>

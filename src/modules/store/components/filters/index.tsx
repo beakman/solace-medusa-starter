@@ -52,7 +52,7 @@ export default function ProductFilters({
         {!isCollection && (
           <>
             <FilterWrapper
-              title="Collections"
+              title="Colecciones"
               content={
                 <FilterItems items={collectionOptions} param="collection" />
               }
@@ -82,7 +82,7 @@ export default function ProductFilters({
               aria-label="Choose collection/s"
               data-testid="collection-filter"
             >
-              Collections
+              Colecciones
             </SelectTrigger>
             <SelectContent className="w-full">
               <FilterItems items={collectionOptions} param="collection" />

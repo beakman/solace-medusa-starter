@@ -23,11 +23,13 @@ export const metadata: Metadata = {
     'Muebles naturales hechos a mano',
 }
 
-export default async function Home({
-  params: { countryCode },
-}: {
-  params: { countryCode: string }
+export default async function Home(props: {
+  params: Promise<{ countryCode: string }>
 }) {
+  const params = await props.params
+
+  const { countryCode } = params
+
   const [{ collections: collectionsList }, { products }] = await Promise.all([
     getCollectionsList(),
     getProductsList({
@@ -71,6 +73,7 @@ export default async function Home({
       )}
       <Suspense fallback={<SkeletonProductsCarousel />}>
         <ProductCarousel
+          testId="our-bestsellers-section"
           products={products}
           regionId={region.id}
           title="Los más vendidos"
